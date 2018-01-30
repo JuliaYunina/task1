@@ -16,7 +16,6 @@ public class Lenword {
         //определение размерности массива
         System.out.println("Введите размерность массива");
         int i1 = scanner.nextInt();
-        //инициация массива
         String[] words = new String[i1];
         //заполнение массива
         for (int i = 0; i < words.length; i++) {
