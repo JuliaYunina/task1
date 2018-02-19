@@ -4,7 +4,7 @@ public class Sum implements Calculate {
     float arg1;
     float arg2;
 
-    Sum(float arg1, float arg2) {
+    public Sum(float arg1, float arg2) {
         this.arg1 = arg1;
         this.arg2 = arg2;
     }
