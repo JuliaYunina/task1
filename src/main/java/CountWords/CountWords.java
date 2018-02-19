@@ -35,16 +35,3 @@ public class CountWords {
     }
 }
 
-//121312
-/*String[] m = "abc abcde abcdef words abc abc g".split(" ");
-    HashMap<String, Integer> statistics = new HashMap<String, Integer>();
-
-        String s = null;
-        int p = 0;
-        for (String w : h.keySet()) {
-        if (p < h.get(w)) {
-        p = h.get(w);
-        s = w;
-        }
-
-        System.out.println("Самое повторяющееся слово: " + w + " (встречается " + h.get(w)*/
