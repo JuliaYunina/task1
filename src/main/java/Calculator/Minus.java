@@ -9,9 +9,10 @@ public class Minus implements Calculate{
         this.arg2 = arg2;
     }
     @Override
-    public void calcOper() {
+    public float calcOper() {
         float minus=0;
         minus = arg1 - arg2;
         System.out.printf("Разность чисел %f и %f равна: %.4f", arg1, arg2, minus);
+        return minus;
     }
 }

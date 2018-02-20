@@ -19,7 +19,7 @@ public class Calculator {
                     Calculate s1 = new Sum(num1, num2);
                     s1.calcOper();
                     break;
-                case "-":
+      /*          case "-":
                     Calculate s2 = new Minus(num1, num2);
                     s2.calcOper();
                     break;
@@ -35,7 +35,7 @@ public class Calculator {
                     {Calculate s4 = new Delenie(num1, num2);
                         s4.calcOper();
 
-                    break;}
+                    break;}*/
                default:
                     System.out.println("Задан некорректный оператор");
             }

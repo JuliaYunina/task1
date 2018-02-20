@@ -8,10 +8,11 @@ public class Delenie implements Calculate {
         this.arg2 = arg2;
     }
     @Override
-    public void calcOper() {
+    public float calcOper() {
         float delen = 0;
         delen = arg1 / arg2;
 
         System.out.printf("Частное от деления числа %f на число %f равно: %.4f", arg1, arg2, delen);
+        return delen;
     }
 }

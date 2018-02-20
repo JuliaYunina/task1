@@ -9,9 +9,10 @@ public class Proizved implements Calculate{
         this.arg2 = arg2;
     }
     @Override
-    public void calcOper() {
+    public float calcOper() {
         float proizv = 0;
         proizv = arg1 * arg2;
         System.out.printf("Произведение чисел %f и %f равна: %.4f", arg1, arg2, proizv);
+        return proizv;
     }
 }

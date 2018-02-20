@@ -9,9 +9,10 @@ public class Sum implements Calculate {
         this.arg2 = arg2;
     }
     @Override
-    public void calcOper() {
+    public float calcOper() {
         float sum=0;
         sum = arg1 + arg2;
         System.out.printf("Сумма чисел %f и %f равна: %.4f", arg1, arg2, sum);
+        return sum;
     }
 }
