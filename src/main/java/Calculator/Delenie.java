@@ -12,7 +12,7 @@ public class Delenie implements Calculate {
         float delen = 0;
         delen = arg1 / arg2;
 
-        System.out.printf("Частное от деления числа %f на число %f равно: %.4f", arg1, arg2, delen);
+        System.out.printf("Частное от деления числа %f на число %f равно: %.4f \n", arg1, arg2, delen);
         return delen;
     }
 }

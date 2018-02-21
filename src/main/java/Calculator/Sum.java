@@ -12,7 +12,7 @@ public class Sum implements Calculate {
     public float calcOper() {
         float sum=0;
         sum = arg1 + arg2;
-        System.out.printf("Сумма чисел %f и %f равна: %.4f", arg1, arg2, sum);
+        System.out.printf("Сумма чисел %f и %f равна: %.4f \n", arg1, arg2, sum);
         return sum;
     }
 }
